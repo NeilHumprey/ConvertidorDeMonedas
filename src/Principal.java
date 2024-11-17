@@ -15,10 +15,12 @@ public class Principal {
                 4) Real brasileño ==> Dólar
                 5) Dólar ==> Peso colombiano
                 6) Peso colombiano ==> Dólar
+                7) Dólar ==>> soles peruanos
+                8) Soles peruanos ==>> dólar
                 
-                7) PERSONALIZADO (Ingresando las divisas)
+                9) PERSONALIZADO (Ingresando las divisas)
                 
-                8) Salir
+                10) Salir
                 *************************************************
                 """);
 
@@ -88,7 +90,7 @@ public class Principal {
 
                 case 7:
 
-                    System.out.println("1) De dólar a peso peruanos");
+                    System.out.println("1) De dólar a soles peruanos");
 
                     ConvertirDivisa dolarASolesPeruanos = new ConvertirDivisa();
                     dolarASolesPeruanos.deDolarADivisa("PEN");
@@ -96,6 +98,15 @@ public class Principal {
                     break;
 
                 case 8:
+
+                    System.out.println("1) Soles peruanos a dólar");
+
+                    ConvertirDivisa solesPeruanosADolar = new ConvertirDivisa();
+                    solesPeruanosADolar.deDivisaADolar("PEN");
+
+                    break;
+
+                case 9:
 
                     System.out.println("""
                             7) Personalizado: Ingrese las divisas

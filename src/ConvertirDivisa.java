@@ -17,10 +17,10 @@ public class ConvertirDivisa {
         System.out.println("Ingrese el monto: ");
         Scanner entradaTeclado = new Scanner(System.in);
 
-        double dolar = entradaTeclado.nextDouble();
-        double operacion = dolar*valorDivisa;
+        double montoIngresado = entradaTeclado.nextDouble();
+        double operacion = montoIngresado *valorDivisa;
 
-        System.out.println(dolar + " USD a " + divisa + " es: " + operacion);
+        System.out.println( montoIngresado + " USD = " + operacion + " " + divisa);
 
     }
 
@@ -34,7 +34,7 @@ public class ConvertirDivisa {
         double montoIngresado = entradaTeclado.nextDouble();
         double operacion = montoIngresado/valorDivisa;
 
-        System.out.println("De " + divisa + " a dólares (USD) es: " + operacion);
+        System.out.println( montoIngresado + " " + divisa + " = " + operacion + " USD ");
 
     }
 
@@ -49,7 +49,7 @@ public class ConvertirDivisa {
         double montoIngresado = entradaTeclado.nextDouble();
         double operacion = (montoIngresado/valorDivisa1)*valorDivisa2;
 
-        System.out.println("De " + divisa1 + " a " + divisa2 + " es: " + operacion);
+        System.out.println( montoIngresado + " " + divisa1 + " = " + operacion + " " + divisa2);
 
     }
 
