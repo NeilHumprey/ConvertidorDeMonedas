@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.*;
 
 public class Principal {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         int opcion;
 
