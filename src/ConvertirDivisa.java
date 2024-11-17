@@ -43,7 +43,7 @@ public class ConvertirDivisa {
         double valorDivisa1 = conversionRates.get(divisa1).getAsDouble();
         double valorDivisa2 = conversionRates.get(divisa2).getAsDouble();
 
-        System.out.println("Ingrese el monto de la primera divisa para su conversión a: " + divisa2);
+        System.out.println("Ingrese el monto de la primera divisa para su conversión a " + divisa2);
         Scanner entradaTeclado = new Scanner(System.in);
 
         double montoIngresado = entradaTeclado.nextDouble();

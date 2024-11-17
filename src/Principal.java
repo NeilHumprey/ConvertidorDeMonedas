@@ -109,10 +109,11 @@ public class Principal {
                 case 9:
 
                     System.out.println("""
-                            7) Personalizado: Ingrese las divisas
+                            9) Personalizado: Ingrese las divisas
                             
                             Ejemplo: PEN(Perú) ARS(Argentina)
                                      BRL(Brasil) COP(Colombia)
+                                     EE.UU(USD)
                             """);
 
                     System.out.println("Primera divisa: ");
