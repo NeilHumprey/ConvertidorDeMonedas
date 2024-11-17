@@ -54,8 +54,8 @@ public class Principal {
 
                     System.out.println("3) De dólar a real brasileño");
 
-                    ConvertirDivisa dolarABrasileño = new ConvertirDivisa();
-                    dolarABrasileño.deDolarADivisa("BRL");
+                    ConvertirDivisa dolarABrasil = new ConvertirDivisa();
+                    dolarABrasil.deDolarADivisa("BRL");
 
                     break;
 
@@ -63,8 +63,8 @@ public class Principal {
 
                     System.out.println("4) De real brasileño a dólares");
 
-                    ConvertirDivisa realBrasileñoADolar = new ConvertirDivisa();
-                    realBrasileñoADolar.deDivisaADolar("BRL");
+                    ConvertirDivisa realBrasilADolar = new ConvertirDivisa();
+                    realBrasilADolar.deDivisaADolar("BRL");
 
                     break;
 
